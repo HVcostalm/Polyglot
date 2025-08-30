@@ -63,13 +63,13 @@ if uploaded_file is not None:
     # =============================
     # Processar no LMStudio
     # =============================
-    st.info("🤖 Polyglot está pensando e consultando o modelo escolhido...")
+    st.info("🤖 Polyglot está pensando...")
     resultado = processar_transcricao(texto, model_name=lmstudio_model)
 
     # =============================
     # Layout em abas
     # =============================
-    aba1, aba2, aba3 = st.tabs(["📝 Transcrição", "📖 Expressões", "🌎 Tradução"])
+    aba1, aba2, aba3 = st.tabs(["📝 Transcrição", "📖 Palavras/Expressões", "🌎 Tradução"])
 
     with aba1:
         st.subheader("📌 Aqui está a transcrição que o Polyglot preparou")
