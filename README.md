@@ -93,7 +93,7 @@ pip install streamlit
 
 # LMStudio
 - Baixe e instale o LM Studio
-- Carregue o modelo desejado (ex: mistralai_-_mistral-7b-instruct-v0.2)
+- Carregue o modelo "mistralai_-_mistral-7b-instruct-v0.2"
 - Ative a API local no LM Studio (porta padrão: 1234)
 
 # Execute a aplicação
